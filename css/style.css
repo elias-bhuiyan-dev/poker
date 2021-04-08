@@ -500,6 +500,51 @@ p {
 }
 
 /****************************
+    Latext-News Part Css 
+****************************/
+#latest_news {
+    background: linear-gradient(to bottom,#dadad9 0,#e3e1e1e6 50%,#dadad9 100%);
+    padding: 100px 0;
+}
+#latest_news .section_title {margin-bottom: 70px;}
+#latest_news .section_title h2 {padding: 0 395px;}
+#latest_news .section_title p {left: 50%;transform: translateX(-50%);}
+
+#latest_news .news_list .single_news {text-align: center;padding: 30px 10px;border-radius: 20px;background: #EEEEEE;box-shadow: 0 10px 10px -5px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+#latest_news .news_list .single_news h5{font-size: 24px;margin-bottom: 30px;}
+#latest_news .news_list .single_news .date {display: flex;margin-bottom: 30px;}
+#latest_news .news_list .single_news .date h6 {width: 45%;text-align: left;font-size: 14px;font-family: "Open Sans",Helvetica,sans-serif;}
+#latest_news .news_list .single_news .date span {width: 55%;text-align: right;font-family: "Open Sans",Helvetica,sans-serif;font-size: 14px;color: #e00713;font-weight: 700;}
+
+#latest_news .news_list .single_news .ranking_list {text-align: left;}
+#latest_news .news_list .single_news .ranking_list li {/*! line-height: 22px; *//*! vertical-align: middle; *//*! display: block; */position: relative;margin-bottom: 10px;}
+#latest_news .news_list .single_news .ranking_list li i {font-size: 16px;color: #000;display: inline;/*! padding-top: 14px; */position: absolute;top: 50%;left: 0;transform: translateY(-50%);}
+#latest_news .news_list .single_news .ranking_list li p {display: inline;padding-left: 15px;font-size: 12px;/*! line-height: 30px; *//*! margin-bottom: 38px; *//*! margin-top: -24px; */}
+#latest_news .news_list .single_news .ranking_list li p span {font-weight: 700;}
+#latest_news .news_list .single_news a {
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(to bottom,#9c1112 0,#e00713 50%,#9c1112 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: rgba(0,0,0,.8) 0 0 5px;
+    margin-top: 15px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+#latest_news .news_list .single_news a:hover {
+    background: linear-gradient(to bottom,#f3d36f 0,#d6aa42 50%,#f3d36f 100%);
+    color: #000;
+}
+
+
+/****************************
 Download Part Css 
 ****************************/
 #video_chat.download {}
@@ -533,7 +578,7 @@ Download Part Css
 /* service */
 .services {
     padding: 100px 0;
-    background: linear-gradient(to bottom,#dadad9 0,#fff 50%,#dadad9 100%);
+    background: linear-gradient(to bottom,#dadad9 0,#e3e1e1e6 50%,#dadad9 100%);
 }
 
 .services .single_service {
