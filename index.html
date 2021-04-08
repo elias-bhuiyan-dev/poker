@@ -102,7 +102,8 @@
 								<button class="">Renvoyer email activation</button>
 							</li>
 						</ul>
-						<form action="#">
+
+						<form action="#" class="form_one">
 							<div class="email">
 								<label for="email">Pseudo ou adresse e-mail :</label>
 								<input type="text">
@@ -119,6 +120,63 @@
 							</div>
 							<!-- for fb -->
 						</form>
+						<!-- form one -->
+						<form action="#" class="form_tow">
+							<div class="email">
+								<label for="email">Entrez votre adresse e-mail pour commencer votre inscription :</label>
+								<input type="text">
+								<select name="gender" id="gender">
+									<option value="mail">Mail</option>
+									<option value="mail">Femal</option>
+								</select>
+							</div>
+							<div class="name">
+								<label for="nickname">Choisissez un pseudo :</label>
+								<input type="text" placeholder="Choisir pseudo">
+								<div class="select_birthday">
+									<label for="birthday">Indiquez votre date de naissance :</label>
+									<select name="day" id="">
+										<option value=""></option>
+									</select>
+									<select name="month" id="">
+										<option value=""></option>
+									</select>
+									<select name="year" id="">
+										<option value=""></option>
+									</select>
+								</div>
+							</div>
+							<div class="password">
+								<div class="newpassword">
+									<label for="password">Entrez un mot de passe :</label>
+									<input type="password" placeholder="Mot de passe">
+								</div>
+								<div class="cpassword">
+									<label for="cpassword">Confirmez le mot de passe :</label>
+									<input type="password" placeholder="Confirmer mot de passe">
+								</div>
+							</div>
+							<button class="creataccount" type="submit">Créer mon compte</button>
+							<p>Attention, ce jeu est interdit aux mineurs !</p>
+						</form>
+						<!-- form tow -->
+						<form action="#" class="form_three">
+							<div class="email">
+								<label for="email">Entrez votre pseudo ou l'adresse e-mail :</label>
+								<input type="text">
+							</div>
+							<button class="reset" type="submit">Réinitialiser le mot de passe</button>
+						</form>
+						<!-- form three -->
+						<form action="#" class="form_four">
+							<div class="email">
+								<label for="email">Entrez l'adresse e-mail avec laquelle vous vous êtes inscrit(e) :</label>
+								<input type="text">
+							</div>
+							<button class="reset" type="submit">Renvoyer l'e-mail d'activation</button>
+						</form>
+						<!-- form three -->
+
 						<div class="chack_box">
 							<input class="check" type="checkbox">
 							<p>Me reconnecter automatiquement à chaque visite</p>
