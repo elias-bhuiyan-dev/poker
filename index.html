@@ -84,26 +84,37 @@
 						<a href="#">
 							<img src="images/logo.png" alt="logo">
 						</a>
+						<div class="form_tow_text">
+							<p>
+								En cliquant sur le bouton
+								« Créer mon compte »,
+								vous certifiez avoir
+								lu et accepté nos
+							</p>
+							<button>
+								Conditions Générales d'Utilisation
+							</button>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-8">
 					<div class="banner_form">
 						<ul class="form_nav">
 							<li>
-								<button class="active">Connexion</button>
+								<button class="btn_one">Connexion</button>
 							</li>
 							<li>
-								<button class="">Créer un compte</button>
+								<button class="btn_tow">Créer un compte</button>
 							</li>
 							<li>
-								<button class="">Perdu(e) ?</button>
+								<button class="btn_three">Perdu(e) ?</button>
 							</li>
 							<li>
-								<button class="">Renvoyer email activation</button>
+								<button class="btn_four">Renvoyer email activation</button>
 							</li>
 						</ul>
 
-						<form action="#" class="form_one">
+						<form action="#" class="form_one active">
 							<div class="email">
 								<label for="email">Pseudo ou adresse e-mail :</label>
 								<input type="text">
@@ -131,18 +142,20 @@
 								</select>
 							</div>
 							<div class="name">
-								<label for="nickname">Choisissez un pseudo :</label>
-								<input type="text" placeholder="Choisir pseudo">
+								<div class="nickname">
+									<label for="nickname">Choisissez un pseudo :</label>
+									<input type="text" placeholder="Choisir pseudo">
+								</div>
 								<div class="select_birthday">
 									<label for="birthday">Indiquez votre date de naissance :</label>
 									<select name="day" id="">
-										<option value=""></option>
+										<option value="">Jour</option>
 									</select>
 									<select name="month" id="">
-										<option value=""></option>
+										<option value="">Mois</option>
 									</select>
 									<select name="year" id="">
-										<option value=""></option>
+										<option value="">Année</option>
 									</select>
 								</div>
 							</div>
@@ -165,7 +178,7 @@
 								<label for="email">Entrez votre pseudo ou l'adresse e-mail :</label>
 								<input type="text">
 							</div>
-							<button class="reset" type="submit">Réinitialiser le mot de passe</button>
+							<button class="reset_btn" type="submit">Réinitialiser le mot de passe</button>
 						</form>
 						<!-- form three -->
 						<form action="#" class="form_four">
@@ -173,11 +186,11 @@
 								<label for="email">Entrez l'adresse e-mail avec laquelle vous vous êtes inscrit(e) :</label>
 								<input type="text">
 							</div>
-							<button class="reset" type="submit">Renvoyer l'e-mail d'activation</button>
+							<button class="reset_btn" type="submit">Renvoyer l'e-mail d'activation</button>
 						</form>
 						<!-- form three -->
 
-						<div class="chack_box">
+						<div class="chack_box active">
 							<input class="check" type="checkbox">
 							<p>Me reconnecter automatiquement à chaque visite</p>
 						</div>

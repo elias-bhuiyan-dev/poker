@@ -1,22 +1,32 @@
 $(function () {
-	//=========search
-	$(".search_btn").on('click', function () {
-		$(".search_box").toggleClass("active");
+
+	// for padding
+	$(".btn_tow").on('click', function () {
+		$(".form_one").addClass('padding_bottom');
+	});
+	$(".btn_one, .btn_three, .btn_four").on('click', function () {
+		$(".form_one").removeClass('padding_bottom');
+	});
+	// for padding
+
+
+	$(".btn_one").on('click', function () {
+		$(".form_tow, .form_three, .form_four, .form_tow_text").removeClass('active');
+		$(".form_one, .chack_box").addClass('active');
 	});
 
-	$(".header_area .search_btn").on('click', function () {
-		$(".search_overlay").addClass("active");
-		$(".search_overlay .close_btn").on('click', function () {
-			$(".search_overlay").removeClass('active');
-		});
-	});
-	$(".icon_bar").on('click', function () {
-		$(".logo").toggleClass('hedden');
+	$(".btn_tow").on('click', function () {
+		$(".form_one, .form_three, .form_four, .chack_box").removeClass('active');
+		$(".form_tow, .form_tow_text").addClass('active');
 	});
 
-	$('.counter').counterUp({
-		delay: 1000,
-		time: 1000000
+	$(".btn_three").on('click', function () {
+		$(".form_tow, .form_one, .form_four, .chack_box, .form_tow_text").removeClass('active');
+		$(".form_three").addClass('active');
+	});
+	$(".btn_four").on('click', function () {
+		$(".form_tow, .form_three, .form_one, .chack_box, .form_tow_text").removeClass('active');
+		$(".form_four").addClass('active');
 	});
 
 
