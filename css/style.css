@@ -1,0 +1,672 @@
+/*************************************************************+
+  *                                                           *
+  *    Template Name:                                         *
+  *    Author: KarnoderDesign                                 *                            
+  *    Author Email: designerkarnoder@gmail.com               *          
+  *    Version: 1.00                                          *                     
+  *                                                           *                 
+  +************************************************************/
+
+/* CSS Index 
+****************************************
+1. THEME COMMON CSS
+2. INDEX PAGE CSS 
+        *-----> Header css
+        *-----> Sticky header css
+        *-----> Banner Css
+        *-----> About Css
+        *-----> Product Css
+        *-----> Event Css
+        *-----> Offer Css
+        *-----> Updates Css
+3. Our Story Page
+        *-----> Inner Page Title css
+        *-----> About Part css
+        *-----> Achievement Css
+4. Our Product Page
+5. Contact page
+        *-----> Left img css
+        *-----> Contact-form Css
+6. ERROR PAGE CSS
+7. FOOTER CSS
+***************************************
+CSS Index End */
+
+
+
+
+
+/* ----------------------------------------------------------------------------------xxxxxxxxxxxxxxx---------------------------------------------------------------------------------- */
+
+
+
+
+/************************** THEME COMMON CSS START ***************************/
+/* Google Fonts Css */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 100%;
+    vertical-align: middle;
+    transition: all .3s linear 0s;
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+a,
+button {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    text-decoration: navajowhite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700;
+    color: #21243d;
+    margin-top: 0px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444444;
+    margin-bottom: 0px;
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+/*----- All Button Style -----*/
+.theme_btn a {
+    padding: 20px 75px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.theme_btn a:hover {
+    color: #ffffff;
+}
+
+.bg_cover {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+.text-space {
+    letter-spacing: 10px;
+}
+
+/*----- Theme color -----*/
+.theme_color {
+    color: #21243d;
+}
+
+.theme_color_bg {
+    background: #21243d;
+}
+
+/*----- All section title here -----*/
+.section_title {
+    position: relative;
+}
+.section_title h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-right: 170px;
+}
+
+.section_title p {
+    color: #EB1923;
+    /*! padding: 0 250px; */
+    text-transform: uppercase;
+    position: absolute;
+    top: -23px;
+    left: 0;
+    font-size: 14px;
+}
+
+/************************** THEME COMMON CSS END ***************************/
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------xxxxxxxxxxxxxxx---------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/************************** INDEX PAGE CSS START ***************************/
+
+/***************************
+    Header Part Css
+***************************/
+/* header area */
+.header_area {padding: 10px 0;background: linear-gradient(to bottom,#28282a 0,#0b0c10 100%);}
+.header_area .header_left {}
+.header_area .header_left p {font-size: 18px;color: #fff;}
+
+.header_area .header_right {}
+.header_area .header_right p {font-weight: 700;color: #b9b9b9;text-align: center;}
+.header_area .header_right .text {
+    display: inline;
+}
+.header_area .header_right .text span {
+    font-family: "Alegreya Sans SC";
+    color: #f1f1f1;
+    font-size: 18px;
+}
+.header_area .header_right .time {
+    display: inline;
+}
+.header_area .header_right .time span {
+    display: inline;
+    font-size: 15px;
+    color: #f1f1f1;
+    font-family: 'sans-serif';
+    margin-left: 2px;
+}
+.header_area .header_right .border_style {
+    position: relative;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.header_area .header_right .border_style::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 95%;
+}
+
+
+/****************************
+    Banner Part Css
+****************************/
+.banner_area {
+    position: relative;
+    background: linear-gradient(to bottom,#5c0507 0,#a70003 50%,#5c0507 100%);
+}
+
+.banner_area .banner_logo {text-align: center;margin-top: 50%;/*! transform: translateY(-50%); */}
+.banner_area .banner_logo a {}
+.banner_area .banner_logo a img {width: 270px;}
+
+.banner_area .banner_form {
+    background: linear-gradient(to bottom,#131313 0,#2a2a2a 50%,#131313 100%);
+    margin: 120px 0;
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin-bottom: 180px;
+    box-shadow: rgba(0,0,0,.5) 0 0 5px inset;
+}
+.banner_area .banner_form .form_nav {
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: #420102 1px solid;
+}
+.banner_area .banner_form .form_nav li {
+    display: inline-block;
+    margin: 0 8px;
+}
+.banner_area .banner_form .form_nav li button {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    /*! background: red; */
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.banner_area .banner_form .form_nav li button.active,
+.banner_area .banner_form .form_nav li button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.banner_area .banner_form form {
+    margin-top: 25px;
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+}
+.banner_area .banner_form form label {display: block;color: #fff;text-transform: capitalize;font-family: "Open Sans",Helvetica,sans-serif;margin-bottom: 10px;}
+.banner_area .banner_form form .email {width: 50%;}
+.banner_area .banner_form form .email input {width: 85%;}
+
+.banner_area .banner_form form .password {width: 50%;}
+.banner_area .banner_form form .password input {width: 80%;}
+
+.banner_area .banner_form form .login {
+    position: absolute;bottom: 0;left: 0;padding: 15px 20px;border: 0;border-radius: 5px;background: linear-gradient(to bottom,#9c1112 0,#e00713 50%,#9c1112 100%);
+    color: #fff;font-weight: 700;font-size: 18px;letter-spacing: 1px;box-shadow: rgba(0,0,0,.8) 0 0 5px;
+    transition: all .3s linear;
+}
+.banner_area .banner_form form .login:hover {
+        background: linear-gradient(to bottom,#f3d36f 0,#d6aa42 50%,#f3d36f 100%); 
+    color: #000;
+}
+
+.banner_area .banner_form .fb_login {position: absolute;right: 0;bottom: 0;}
+.banner_area .banner_form .fb_login button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: #2A49A5;
+    border: 1px solid #082783;
+    box-shadow: 0 1px #4C6BC7 inset;
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+.banner_area .banner_form .chack_box {
+    margin-top: 15px;
+}
+.banner_area .banner_form .chack_box input{
+    display: inline;
+}
+.banner_area .banner_form .chack_box p{
+    display: inline;margin-left: 10px;
+    color: #fff;
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+.banner_area .banner_bottom {
+    position: absolute;
+    width: 100%;
+    bottom: -52px;
+}
+.banner_area .banner_bottom .single_item{
+    background: #000;
+    display: flex;
+    padding: 20px 0;
+    /*! margin-right: 10px; */
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.banner_area .banner_bottom .single_item .icon {
+    /*! display: inline; */
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 80px;
+}
+.banner_area .banner_bottom .single_item .icon img {
+    width: 50px;
+     line-height: 80px;
+}
+.banner_area .banner_bottom .single_item .text {
+    position: relative;
+    width: 60%;
+}
+.banner_area .banner_bottom .single_item .text h5 {
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/****************************
+    Apply-Now Part Css 
+****************************/
+#apply_now {
+    background: linear-gradient(to bottom,#131313 0,#2a2a2a 50%,#131313 100%);
+    margin-top: 130px;
+    margin-bottom: 110px;
+    padding: 20px 0;
+}
+#apply_now .text{
+    text-align: center;
+}
+#apply_now .text p{
+    color: #fff;
+    padding-right: 25px;
+}
+#apply_now a {
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(to bottom,#9c1112 0,#e00713 50%,#9c1112 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: rgba(0,0,0,.8) 0 0 5px;
+    transition: all .3s linear;    
+}
+#apply_now a:hover {
+    background: linear-gradient(to bottom,#f3d36f 0,#d6aa42 50%,#f3d36f 100%); 
+    color: #000;
+}
+
+/****************************
+    About Part Css 
+****************************/
+#about {
+    padding-bottom: 110px;
+}
+#about .about_left {}
+#about .about_left .image {}
+#about .about_left .image img{
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#about .about_right {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#about .about_right .about_info {}
+#about .about_right .about_info .text {}
+#about .about_right .about_info .text p {}
+
+/****************************
+    Video Part Css 
+****************************/
+
+#video_chat {
+    padding: 110px 0;
+}
+
+#video_chat .video_left {
+    margin-top: 15px;
+    margin-right: 60px;
+}
+#video_chat .video_left .video_info {}
+#video_chat .video_left .video_info .text {}
+#video_chat .video_left .video_info .text p {}
+
+#video_chat .video_right {text-align: center;}
+#video_chat .video_right .image {
+    text-align: center;
+    margin-right: 20px;
+}
+#video_chat .video_right .image img{
+    border-radius: 10px;
+    width: 145px;
+    /*! margin-right: 17px; */
+}
+#video_chat .video_right a {
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(to bottom,#9c1112 0,#e00713 50%,#9c1112 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: rgba(0,0,0,.8) 0 0 5px;
+    margin-top: 15px;
+    transition: all .3s linear;
+}
+
+
+#video_chat .video_right a:hover {
+    background: linear-gradient(to bottom,#f3d36f 0,#d6aa42 50%,#f3d36f 100%); 
+    color: #000;
+}
+
+/****************************
+Download Part Css 
+****************************/
+#video_chat.download {}
+#video_chat.download .section_title {}
+#video_chat.download .section_title h2 {
+    padding-right: 0;
+}
+#video_chat.download .section_title h2 p {}
+#video_chat.download .video_left a {
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(to bottom,#9c1112 0,#e00713 50%,#9c1112 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: rgba(0,0,0,.8) 0 0 5px;
+    margin-top: 15px;
+}
+
+
+#video_chat.download .video_left a:hover {
+    background: linear-gradient(to bottom,#f3d36f 0,#d6aa42 50%,#f3d36f 100%);
+    color: #000;
+}
+
+/****************************
+    Service Part Css 
+****************************/
+/* service */
+.services {
+    padding: 100px 0;
+    background: linear-gradient(to bottom,#dadad9 0,#fff 50%,#dadad9 100%);
+}
+
+.services .single_service {
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 20px;
+    background: #EEEEEE;
+    /*! box-shadow: 0 10px 10px -5px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /*! height: 340px; */
+}
+
+.services .single_service .service_text {
+    padding: 0 25px;
+}
+
+.services .single_service .service_text span {
+    font-size: 21px;
+}
+
+.services .single_service .service_text h3 {
+    /*! margin-top: 10px; */
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding: 0 40px;
+}
+
+.services .single_service .service_text p {}
+
+
+/************************** INDEX PAGE CSS END ***************************/
+
+
+
+/* ----------------------------------------------------------------------------------xxxxxxxxxxxxxxx---------------------------------------------------------------------------------- */
+
+
+
+
+/************************** ERROR PAGE CSS START ***************************/
+
+/*****************************
+     Part Css 
+*****************************/
+
+/************************** ERROR PAGE CSS END ***************************/
+
+
+
+/* ----------------------------------------------------------------------------------xxxxxxxxxxxxxxx---------------------------------------------------------------------------------- */
+
+
+
+/************************** FOOTER CSS START ***************************/
+#footer {
+    background: linear-gradient(to bottom,#070c12 0,#1b1b1b 50%,#070c12 100%);
+    padding: 50px 0;
+}
+#footer .footer_logo {
+    text-align: center;
+}
+#footer .footer_logo a {}
+#footer .footer_logo a img {}
+
+#footer .footer_right {}
+#footer .footer_right h5 {
+    color: #f1f1f1;
+    padding-right: 21px;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-style: italic;
+    opacity: .8;
+}
+#footer .footer_right .footer_nav {}
+#footer .footer_right .footer_nav li {
+    display: inline-block;
+    /*! color: #fff; */
+}
+#footer .footer_right .footer_nav li a {
+    color: #888;
+    font-size: 18px;
+    margin-right: 9px;
+    font-weight: 700;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+#footer .footer_right .footer_nav li a:hover {
+    color: #ffffff;
+}
+
+/************************** FOOTER CSS END ***************************/
+
+
+
+
+/* ----------------------------------------------------------------------------------xxxxxxxxxxxxxxx---------------------------------------------------------------------------------- */
+
+
+
+
+
+/***************************** Back-to-top button css *****************************/
+.back_to_top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: linear-gradient(to bottom,#9c1112 0,#e00713 50%,#9c1112 100%);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+
+.back_to_top:hover {
+    background: linear-gradient(to bottom,#f3d36f 0,#d6aa42 50%,#f3d36f 100%);
+    color: #12172b;
+}
