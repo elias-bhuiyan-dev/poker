@@ -462,6 +462,7 @@ p {
     height: 30px;
     background: #fff;
     border: 1px solid #fff;
+    width: 78px;
 }
 .banner_area .banner_form form.form_tow .email select option {}
 
